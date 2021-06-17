@@ -1,0 +1,36 @@
+.container{
+    max-width: 1080px;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    display: flex;
+}
+
+.imagem {
+    flex: 0 0 30%;
+    padding: 0 2rem;
+}
+
+.imagem img{
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    flex: 0 0 70%;
+    padding: 0 2rem;
+}
+
+
+.titulo{
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 577px) {
+    .imagem, .info {
+        flex: 0 0 100%;
+    }
+}
